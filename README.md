@@ -1,3 +1,6 @@
+### NAACL 2024 Main
+"Comparing Explanation Faithfulness between Multilingual and Monolingual Fine-tuned Language Models"
+
 ## Prerequisites
 
 Install necessary packages by using the files [pip_reqs.txt](https://github.com/casszhao/BP-rationales/blob/main/pip_reqs.txt)  
@@ -20,7 +23,7 @@ dataset="evinf"
 data_dir="datasets/"
 model_dir="trained_models/"
 
-for seed in 5 10 15 
+for seed in 5 10 15 20 25
 do
 python finetune_on_ful.py --dataset $dataset \
                           --model_dir $model_dir \
@@ -34,10 +37,9 @@ python finetune_on_ful.py --dataset $dataset \
                           --evaluate_models 
 ```
 
-## Extracting Rationales (Fixed or Instance-Specific - For all parameters)
 
 ```
-divergence="jsd"
+
 extracted_rationale_dir="extracted_rationales/"
 
 python extract_rationales.py --dataset $dataset  \
@@ -47,7 +49,7 @@ python extract_rationales.py --dataset $dataset  \
                              --extract_double \
                              --divergence $divergence
 ```
-```--extract_double``` is optional and is used to double $N$.
+
 
 ## Evaluating Faithfulness
 ```
@@ -63,6 +65,5 @@ python evaluate_masked.py --dataset $dataset \
 ```
 
 
-## Summarising results
-
-Following the evaluation you can use [src/generate_results/recreate_paper.py](https://github.com/GChrysostomou/instance-specific-rationale/blob/main/src/generate_results/recreate_paper.py) to recreate the tables and figures seen in the paper. 
+## FOCUS for replacing tokenizer
+Thanks to FOCUS(https://github.com/konstantinjdobler/focus)
