@@ -1,0 +1,4 @@
+Dataset,mbert_UnkNum,mbert_UnkRatio,mbert_Fertility,xlm_roberta_UnkNum,xlm_roberta_UnkRatio,xlm_roberta_Fertility,hindi_bert_UnkNum,hindi_bert_UnkRatio,hindi_bert_Fertility,hindi_roberta_UnkNum,hindi_roberta_UnkRatio,hindi_roberta_Fertility
+hindi_xnli,24,8.266170696424881e-05,1.7489175328483548,0,0.0,1.4287318600965797,0,0.0,1.5055651913502452,0,0.0,3.621136496924171
+hindi_bbc_nli,72,0.0015432098765432098,2.129390018484288,0,0.0,1.676524953789279,0,0.0,1.569932224276032,0,0.0,3.836722119531731
+hindi_bbc_topic,72,0.0010683760683760685,1.8441835645677696,0,0.0,1.4674493062966916,0,0.0,1.5723941657773035,0,0.0,3.55994308075418
