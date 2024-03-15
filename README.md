@@ -1,6 +1,18 @@
 ### NAACL 2024 Main
 "Comparing Explanation Faithfulness between Multilingual and Monolingual Fine-tuned Language Models"
 
+cite the paper or code with
+```
+@inproceedings{
+zhao2024comparing,
+title={Comparing Explanation Faithfulness between Multilingual and Monolingual Fine-tuned Language Models},
+author={ZHIXUE ZHAO and Nikolaos Aletras},
+booktitle={2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+year={2024},
+url={https://openreview.net/forum?id=0MFyfNOsdK}
+}
+```
+
 ## Prerequisites
 
 Install necessary packages by using the files [pip_reqs.txt](https://github.com/casszhao/BP-rationales/blob/main/pip_reqs.txt)  
