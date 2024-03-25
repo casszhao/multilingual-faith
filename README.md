@@ -1,5 +1,5 @@
 ### NAACL 2024 Main
-[Comparing Explanation Faithfulness between Multilingual and Monolingual Fine-tuned Language Models](https://arxiv.org/pdf/2403.12809.pdf/)
+[Comparing Explanation Faithfulness between Multilingual and Monolingual Fine-tuned Language Models](arxiv.org/pdf/2403.12809.pdf)
 
 cite the paper or code with
 ```
